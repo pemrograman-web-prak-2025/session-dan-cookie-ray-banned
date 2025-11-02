@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Lexend:wght@100..900&family=Limelight&display=swap');
+    
+body {
+    background-color: white;
+    background-image: url('/images/blood_4k.jpg');
+    background-size: cover;
+
+}
+
+a {
+    color: white;
+    font-weight: bold;
+}
+
+.display-form {
+    margin: 5px;
+    padding: 5px;
+    background-color: rgba(145, 14, 43, 0.5);
+}
+
+.heading {
+    font-weight: bold;
+    text-align: center;
+    font-family: "Limelight", sans-serif;
+    padding: 6px;
+    background-color: #910e2bff;
+    color: white;
+    font-size: 40px;
+}
+
+h3 {
+    font-family: "Borel", cursive;
+}
+
+#text {
+    font-family: "Lexend", sans-serif;
+    color: white;
+}
+
+.custom-container {
+    max-width: 95%; 
+    margin: auto;
+    padding: 20px;
+    background-color: rgba(145, 14, 43, 0.5);
+    color: white;
+}
+
+.custom-container img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+.row > div {
+    display: flex;
+}
+
+.my-col {
+    background-color: rgb(224, 66, 66);
+    color: white;
+    border-radius: 8px;
+    padding: 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.col-md-4 {
+    margin-bottom: 30px;
+}
+
+.img-fluid {
+    max-height: 300px;
+    width: 100%;
+    object-fit: cover; 
+}
+
+.add-poison {
+    display: block;        
+    background-color: #910e2bff;
+    color: white;
+    font-family: "Limelight", sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    text-align: center;
+    width: 40%;
+    padding: 15px;
+    margin: 20px auto;     
+    text-decoration: none; 
+}
+
+.add-poison:hover {
+    transform: scale(1.02);
+}
+
